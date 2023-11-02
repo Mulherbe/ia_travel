@@ -1,4 +1,4 @@
-#!/var/www/html/cours/api-voice/vosk-env/bin/python
+#!/var/www/html/cours/ia/ia_travel/api-voice/vosk-env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

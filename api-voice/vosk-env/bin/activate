@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/var/www/html/cours/api-voice/vosk-env"
+VIRTUAL_ENV="/var/www/html/cours/ia/ia_travel/api-voice/vosk-env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

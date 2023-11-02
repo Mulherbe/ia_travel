@@ -34,7 +34,7 @@ export default function App() {
         type: 'audio/wav',
         name: 'audio.wav',
       });
-      const response = await axios.post('http://172.20.10.2:5000/recognize', formData);
+      const response = await axios.post('http://10.73.189.154:5000/recognize', formData);
       setTranscription(response.data.text);
       console.log(response.data.text)
     } catch (error) {
@@ -43,7 +43,7 @@ export default function App() {
   }
   const handleTestButtonClick = async () => {  // Fonction ajoutée pour tester l'API
     try {
-      const response = await axios.get('http://172.20.10.2:5000/test');
+      const response = await axios.get('http://10.73.189.154:5000/test');
       setApiTestResponse(response.data);
     } catch (error) {
       console.error("Erreur lors de la récupération de la réponse de l'API:", error);
