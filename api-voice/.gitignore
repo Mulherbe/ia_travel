@@ -1,1 +1,7 @@
 vosk-model-fr-0.22
+*.wav
+*.m4a
+.DS_Store
+*test*
+not_working/
+working/
